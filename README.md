@@ -1,3 +1,13 @@
+# What I executed to start the project from nothing
+```bash
+npx nuxi init minimal-portfolio
+cd minimal-portfolio
+yarn install
+npm i -D @unocss/nuxt
+yarn add --dev @nuxtjs/color-mode
+yarn dev -o
+```
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
